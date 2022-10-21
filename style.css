@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-style: "Courier New", Courier, monospace;
+  --bg-color: #b2b2b2;
+  --btn-color: #00abb3;
+  --input-field-color: #eaeaea;
+}
+
+body {
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+button {
+  background-color: var(--btn-color);
+  padding: 0.5em;
+  font-family: var(--font-style);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+input {
+  background-color: var(--input-field-color);
+  padding: 0.5em;
+  font-family: var(--font-style);
+  font-size: 2rem;
+}
